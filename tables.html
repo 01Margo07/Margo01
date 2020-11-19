@@ -1,0 +1,426 @@
+<style>
+	.text-center{
+		text-align: center;
+	}
+	.text-left{
+		text-align: left;
+	}
+	.text-right{
+		text-align: right;
+	}
+	.bold
+	{
+		font-weight: bold;
+	}
+	.table1
+	{
+
+		border:1px solid black;
+	}
+	.table1 td, .table1 th
+	{
+		border:1px solid black;
+	}
+   .table2{
+   border-collapse:collapse;
+   font-family:Arial;
+   }
+   .table2 td, .table2 th{
+   border:1px solid grey;
+   padding:20px 10px;
+   }
+   .table2 .col1
+   {
+   background:#FF3333;
+   }
+   .table2 .col2
+   {
+   background:#FF8C00;
+   }
+   .table2 .col3
+   {
+   background:#9ACD32;
+   }
+   .table2 .col4
+   {
+   background:#00FA9A;
+   }
+   .table3
+   {
+   border-collapse:collapse;
+   }
+   .yellow{
+   background: #fed966;
+   }
+   .cyan
+   {
+   	background: #9cc2e6;
+   }
+   .whitered
+   {
+   	background:#e6e6e6;
+   }
+   .green
+   {
+   	background: #538136;
+   }
+   .table3 td, .table3 th
+   {
+   		border: 1px solid black;
+   	    padding-top: 10px;
+   	    padding-bottom: 20px;
+   }
+   .table4 td, .table4 th
+   {
+   		border: 1px solid black;
+   	    /*padding-top: 10px;
+   	    padding-bottom: 20px;*/
+   }
+   .table4
+   {
+   	border-collapse: collapse;
+   }
+   .table5
+   {
+   	 width: 340px;
+   	 height:280px;
+   	 border-collapse: collapse;
+   }
+   .table5 td
+   {
+   	border: 3px solid #993300;
+   }
+   .table5 .header
+   {
+   		width:100%;
+   		height:25%;
+   		color:#de8c1d;
+   		background: #2d4e96;
+   		font-family: ARIAl;
+   		padding-left: 10px;
+   		font-size:20px;
+   }
+   .table5 .news
+   {
+   		height:65%;
+   		color:#daddc7;
+   		background: #2d4e96;
+   		font-family: ARIAl;
+   		padding-bottom:120px;
+   		padding-left: 10px;
+   		font-size:16px;
+   		font-family: Comic Sans MS;
+   }
+   .table5 .menu
+   {
+   		width:20%;
+   		height:10%;
+   		background: #daddc7;
+   		
+   		font-family: Comic Sans MS;
+   }
+   .table5 .content
+   {
+   	height:65%;
+   	padding-bottom:120px;
+   	background: #daddc7;
+   	padding-left: 25px;
+   		font-family: Comic Sans MS;
+   }
+   	
+   .table6
+   {
+   	 width: 340px;
+   	 height:280px;
+   	 border-collapse: collapse;
+   }
+   .table6 td
+   {
+   	border: 2px solid #bdd98d;
+   }
+   .table6 .header
+   {
+   		width:60%;
+   		height:25%;
+   		color:#c4bb2c;
+   		background: #154709;
+   		font-family: ARIAl;
+   		padding-left: 25px;
+   		font-size:20px;
+   }
+   .table6 .menu
+   {
+   		width:40%;
+   		background: #c4bb2c;
+   		padding-left: 30px;
+   		font-family: Comic Sans MS;
+   }
+   .table6 .content
+   {
+   	height:65%;
+   	padding-bottom:100px;
+   	background: #daddc7;
+   	padding-left: 25px;
+   		font-family: Comic Sans MS;
+   }
+   .table6 .footer
+   {
+   	height:10%;
+   	font-size: 12px;
+   	color:#c4bb2c;
+   	background: #154709;
+		font-family: Comic Sans MS;
+		padding-left: 10px;
+   }
+   .table7
+   {
+   	 width: 300px;
+   	 height:255px;
+   	 border-collapse: collapse;
+   }
+   .table7 td
+   {
+   	border: 3px solid #993300;
+   }
+   .table7 .header
+   {
+   		width:62%;
+   		height:25%;
+   		color:#441857;
+   		background: #a17db2;
+   		font-family: ARIAl;
+   		padding-left: 15px;
+   		font-size:25px;
+   }
+   .table7 .news
+   {
+   		width: 38%;
+   		color:#eedac4;
+   		background: #470267;
+   		font-family: ARIAl;
+   		padding-bottom:10px;
+   		text-align: center;
+   		
+   		font-size:16px;
+   		font-family: Comic Sans MS;
+   }
+   .table7 .menu
+   {
+   		width:20%;
+   		height:12%;
+   		background: #e5c9f2;
+   			padding-left: 15px;
+   		font-family: Comic Sans MS;
+   }
+   .table7 .content
+   {
+   	height:63%;
+   	padding-bottom:105px;
+   	background: #f3e1c7;
+	padding-left: 15px;
+   		font-family: Comic Sans MS;
+   }
+</style>
+<p>
+	<table class='table1'>
+		<p class='text-center' style='max-width: 500px;'>Добуток дорогоцінних каменів</p>
+		<tr>
+			<th style='width:140px;'></th>
+			<th style='width:80px;'>2010</th>
+			<th style='width:80px;'>2012</th>
+			<th style='width:80px;'>2014</th>
+			<th style='width:80px;'>2016</th>
+		</tr>
+		<tr>
+			<td>Сапфіри</td>
+			<td rowspan="2">1483</td>
+			<td>4532</td>
+			<td>6743</td>
+			<td>9999</td>
+		</tr>
+		<tr>
+			<td>Рубіни</td>
+			<td>3835</td>
+			<td>7482</td>
+			<td>10000</td>
+		</tr>
+		<tr>
+			<td>Алмази</td>
+			<td>683</td>
+			<td colspan="2">238</td>
+			<td>999</td>		</tr>
+	</table>
+</p>
+
+<p>
+   <table class='table2'>
+      <tr>
+         <th class='col1'>Лужні метали</th>
+         <th class='col2'>Важкі метали</th>
+         <th class='col3'>Неметали</th>
+         <th class='col4'>Інертні гази</th>
+      </tr>
+      <tr>
+         <td class='col1'>Li</td>
+         <td class='col2'>Cu</td>
+         <td class='col3'>F</td>
+         <td class='col4'>He</td>
+      </tr>
+      <tr>
+         <td class='col1'>Na</td>
+         <td class='col2'>Ag</td>
+         <td class='col3'>Cl</td>
+         <td class='col4'>Ne</td>
+      </tr>
+      <tr>
+         <td class='col1'>K</td>
+         <td class='col2'>W</td>
+         <td class='col3'>Br</td>
+         <td class='col4'>Ar</td>
+      </tr>
+      <tr>
+         <td class='col1'>Rb</td>
+         <td class='col2'>Hg</td>
+         <td class='col3'>I</td>
+         <td class='col4'>Kr</td>
+      </tr>
+   </table>
+</p>
+<p>
+   <table class='table3 text-center'>
+      <tr class='yellow'>
+         <th class='' style='width: 40px;'>№</th>
+         <th class='' style='width: 165px;'>ПІБ</th>
+         <th class='' style='width: 120px;'>Адреса</th>
+         <th class='' style='width: 100px;'>Телефон</th>
+      </tr>
+      <tr class='whitered'>
+         <td class='cyan'>1</td>
+         <td class=''>ПІБ1</td>
+         <td class=''>Адреса1</td>
+         <td class=''>111111</td>
+      </tr>
+      <tr class='whitered'>
+         <td class='cyan'>2</td>
+         <td class=''>ПІБ2</td>
+         <td class=''>Адреса2</td>
+         <td class=''>222222</td>
+      </tr>
+      <tr class='whitered'>
+         <td class='cyan'>3</td>
+         <td class=''>ПІБ3</td>
+         <td class=''>Адреса3</td>
+         <td class=''>333333</td>
+      </tr>
+      <tr class='whitered'>
+         <td class='cyan'>4</td>
+         <td class=''>ПІБ4</td>
+         <td class=''>Адреса4</td>
+         <td class=''>444444</td>
+      </tr>
+      <tr class='green bold' >
+         <td class='text-right' colspan=3>Загальна кількість</td>
+         <td class=''>4</td>
+      </tr>
+   </table>
+</p>
+<p>
+	<table class='table4 text-center'>
+		<tr>
+			<th rowspan="2">номер</th>
+			<th colspan="2">теги</th>
+		</tr>
+		<tr>
+			<th>тег</th>
+			<th>значение</th>
+		</tr>
+		<tr>
+			<td style='width:70px;'>1</td>
+			<td style='width: 60px;'>p</td>
+			<td style='width:200px;' rowspan="4">для текста</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>a</td>
+			
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>b</td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>i</td>
+			
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>table</td>
+			<td>таблица</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>tr</td>
+			<td>ряд таблицы</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>td</td>
+			<td rowspan="2">ячейки таблицы</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>th</td>
+			
+		</tr>
+	</table>
+</p>
+<p>
+	<table class='table5'>
+		<tr>
+			<td class="header" colspan="5">ШАПКА</td>
+			
+		</tr>
+		<tr>
+			<td class="menu">МЕНЮ</td>
+			<td class="menu">МЕНЮ</td>
+			<td class="menu">МЕНЮ</td>
+			<td class="menu">МЕНЮ</td>
+			<td class="menu">МЕНЮ</td>
+			
+		</tr>
+		<tr>
+			<td class="news" colspan="2">новости</td>
+			<td class="content" colspan="3">КОНТЕНТ</td>
+		</tr>
+	</table>
+</p>
+<p>
+	<table class='table6'>
+		<tr>
+			<td class="header">ШАПКА</td>
+			<td class="menu" rowspan="2">МЕНЮ</td>
+		</tr>
+		<tr>
+			<td class="content">КОНТЕНТ</td>
+		</tr>
+		<tr>
+			<td class="footer" colspan="2">НИЗ САЙТА</td>
+		</tr>
+	</table>
+</p>
+<p>
+	<table class='table7'>
+		<tr>
+			<td class="news" rowspan="3">новости</td>
+			<td class="header">ШАПКА</td>
+		</tr>
+		<tr>
+			<td class="menu">МЕНЮ</td>
+		</tr>
+		<tr>
+			<td class="content">КОНТЕНТ</td>
+		</tr>
+	</table>
+</p>
